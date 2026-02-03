@@ -70,7 +70,7 @@ USER root
 RUN chown -R root:root /home/linuxbrew/.linuxbrew
 ENV PATH="/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:${PATH}"
 
-WORKDIR /app
+WORKDIR /openclaw
 
 # Wrapper deps
 RUN corepack enable
